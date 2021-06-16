@@ -1,0 +1,85 @@
+
+h3{
+    font-size: 35px;
+}
+h3,select,label,span{
+    color: #333333 ;
+
+}
+.title-section{
+    padding: 0px 15px;
+    margin-bottom: 10px;
+}
+select{
+    padding: 2px 11px;
+    outline: #a4a4a4;
+    border-radius: 4px;
+    margin-top: 13px;
+    border: 1px solid #a4a4a4;
+}
+label{
+    font-size: 14px;
+    vertical-align: -webkit-baseline-middle;
+}
+span{
+    font-size: 20px;
+    vertical-align: -webkit-baseline-middle;
+}
+.title-section{
+    height: 55px;
+    background-color: #def1f4;
+    margin-top: 15px;
+}
+.text-overflow-dot{
+    white-space: nowrap; 
+    width: 135px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+   
+}
+.card-body{
+    min-height: 107px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+}
+.sale-label{
+    margin-bottom: 12px;
+    background:#cc3333;
+    color:#fff;
+    padding: 5px 15px;
+}
+.exclusive-label{
+    margin-bottom: 12px;
+    background:#009900;
+    color:#fff;
+    padding: 5px 15px;
+}
+.text-overflow-dot-100{
+    white-space: nowrap; 
+    width: 100px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+@media only screen and (max-width:991px) {
+    .text-overflow-dot{
+       
+        width: 150px; 
+         
+       
+    }
+    .card-body{
+        min-height: 135px;
+      
+    
+    }
+    label{
+        vertical-align: inherit;
+    }
+    span{
+        font-size: 16px;
+    }
+  
+  }
