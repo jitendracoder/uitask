@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Please see below points.
+
+1- first run this file you have angukar cli and npm node in your system
+2- clone and download the zip file.
+3- open the folder in vs code.
+4- run npm install or npm update command.
+5- run ng serve command
